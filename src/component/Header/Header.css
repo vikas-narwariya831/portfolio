@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.Main-Heading{
+    color:white;
+    font-size:small;
+    display: flex;
+
+margin-right: 990px;   
+ } 
+
+ @media (max-width: 960px) {
+   .Main-Heading {
+     flex-direction: column;
+   }
+ }
+ 
+ .Navbar{
+    /* background-color :white; */
+    border-radius: 0.2rem;
+    border: 1px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 60px;
+ }
+ .Main-Heading :hover{
+    background-color:white;
+    /* border: 3px solid rgb(0, 251, 255); */
+    cursor: pointer;
+    transition: 1s;
+    color: black;
+ }
+
+ .Menu-Icon{
+    color: white;
+    margin-top: 20px;
+    
+ }
+.Heading{
+    margin-top: 20px;
+
+    margin-left: 10PX;
+}
+.Menu-Container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ContrastIcon{
+    margin-right: 20px;
+   margin-bottom: 18px;
+    
+} 

@@ -1,0 +1,179 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.wrapper{
+  height: 100vh;
+  overflow-y: auto;
+  background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+  
+  
+}
+ .Project-Heading{
+  color: white;
+  display: flex;
+  /* font-size: small; */
+  
+  justify-content: center;
+  margin-top: 10px;
+  /* border: 2px solid white; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+.Project-Heading h1 :hover{
+  background-color: aquamarine;
+}
+
+
+
+.Line{
+  border: 1px solid white;
+  margin-top: 10px;
+}
+.Project-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 100vh;
+  margin-top: 5px;
+}
+
+
+.Project-container h1{
+  text-align: center;
+  margin: 20px 0;
+  margin-bottom: 20px;
+  font-size: 70px;
+  text-align: center;
+}
+.Projects-Set{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 960px) {
+  .Projects-Set {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.card{
+  width: 400px;
+  position: relative;
+  margin-bottom: 20px;
+  border-radius: 10px ;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card img{
+  width: 100%;
+  position: relative;
+  height: 100%;
+
+  filter: grayscale(100%);
+  box-shadow: 0 0 20px #333;
+  object-fit: cover;
+}
+
+.card:hover{
+  transform: scale(1.03);
+filter: drop-shadow(0 0 10px #333);
+
+ transition: 0.5s;
+  
+}
+.card:hover img{
+  filter: grayscale(0%);
+  filter: blur(1px);
+}
+.card figcaption{
+  position: absolute;
+  opacity: 0;
+  color:black;
+  backdrop-filter:blur 2px;
+  bottom: 0;
+  margin-left: 150px;
+  margin-bottom: 80px;
+ 
+
+}
+
+.card:hover figcaption{
+  opacity: 1;
+  transform: scale(1.3s);
+}
+
+.Box1{
+  border: 1px solid black;
+  border-radius: 999px;
+  display: flex;
+  font-size: small;
+  justify-content: center;
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-right:60px ;
+  margin-top: 1222px;
+
+
+  
+}
+.Project-Header{
+  margin-left: 80px;
+}
+
+
+@media (max-width: 960px) {
+  .Project-Header {
+    flex-direction: column;
+    margin-left: 730px;
+  }
+}
+
+.card:hover .Box1{
+ background-color: white;
+ transition: 1s;
+}
+
+
+
+.card .Button1{
+  border-radius:9999px ;
+  border: 1px solid #AC3BFF;
+  justify-content: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size:  0.875rem;
+  margin-top: 10px;
+  /* border: 3px solid rgb(0, 251, 255); */
+  cursor: pointer;
+  color: black;
+  background-color: #AC3BFF;
+
+  margin-right:60px ;
+ }
+/* 
+ .card :hover  .Button1{
+ 
+ } */
+
+ .card  a{
+  text-decoration: none;
+ }
+
+ .card :hover .Button1{
+  background-color: cyan;
+  transition: 1s;
+  border: 1px solid cyan;
+
+ }

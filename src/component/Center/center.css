@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  .Content{
+    color:white;
+    font-size:x-small ;
+    margin: 50px 120px;
+    padding: 60px;
+      
+    }
+    .Content-Name{
+        font-size: large;
+    }
+
+   
+
+    .Content p{
+        margin-top: 30px;
+        font-size: medium;
+    }
+
+    .Content Button{
+    margin-top: px;
+    color:black;
+    background-color:white;
+    
+    @media (max-width: 640px) {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+      }
+    
+    }
+
+    .container{
+        display: flex;
+        
+    }
+
+    .Image-Container{
+        /* align-items: center; */
+
+
+        @media (max-width: 960px) {
+         
+          }
+    
+          @media (max-width: 640px) {
+           
+          }
+    }
+    .paragraph{
+        margin-top: 3px;
+        font-size: medium;
+    }
+ .Socials{
+    margin-top: 22px;
+     display: flex;
+    
+     @media (max-width: 640px) {
+       flex-direction: column;
+      }
+    
+ }
+
+ .Socials a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display:'flex';
+    
+ }
+ .Socials a :hover{
+    color: blueviolet;
+ }
+
+ .Sub-Title{
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 42px;
+    @media (max-width: 960px) {
+        text-align: center;
+      }
+
+      @media (max-width: 640px) {
+        font-size: 16px;
+        line-height: 32px;
+      }
+    
+ }
+
+ .Github-Socials{
+    font-size: medium;
+    margin: 4px;
+    display: flex;
+    justify-content: center;
+ }
+
+  .GitHubIcon{
+    margin-left: 3px;
+    margin-right: 8px;
+   
+} 
+ .LinkdIn-Socials{
+    font-size: medium;
+    margin-top: 4px;
+    margin-left: 3px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    @media (max-width: 960px) {
+        margin-right: 100px;
+      }
+
+ }
+ .LinkedInIcon{
+ margin-left: 50px;
+ margin-right: 8px;
+ }
+.buttons{
+    flex-direction: column;
+}
+.buttons  .Contact-me{
+    margin-left: 30px;
+
+    @media (max-width: 960px) {
+        margin-left: 0;
+      }
+
+}
+/* style={{marginLeft:'50px',marginRight:'8px'}} */
