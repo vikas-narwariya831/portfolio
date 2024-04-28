@@ -9,6 +9,7 @@
   height: 100vh;
   overflow-y: auto;
   background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+  overflow-x: hidden;
   
   
 }
@@ -128,14 +129,14 @@ filter: drop-shadow(0 0 10px #333);
   
 }
 .Project-Header{
-  margin-left: 80px;
+  margin-left: 50px;
 }
 
 
 @media (max-width: 960px) {
   .Project-Header {
     flex-direction: column;
-    margin-left: 730px;
+    margin-left: 700px;
   }
 }
 

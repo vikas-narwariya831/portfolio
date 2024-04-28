@@ -10,3 +10,12 @@
     font-family: Marcellus;
     overflow-x: hidden;
   }
+
+  .Home-Header{
+
+    @media (max-width: 960px) {
+      display: flex;
+      margin-left: 90px ;
+      
+       }
+  }

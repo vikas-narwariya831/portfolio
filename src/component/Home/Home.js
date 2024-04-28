@@ -7,8 +7,8 @@ function Home(){
     return(
 
 <div className="Home">
-    <div>
-<Header/>
+    <div className="Home-Header">
+<  Header/>
 
     </div>
 

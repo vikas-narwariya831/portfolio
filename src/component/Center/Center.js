@@ -39,11 +39,11 @@ function Center(){
            </div>
            <div className="buttons">
         <Button variant="contained" onClick={projectClick}>Projects</Button>
-        <Button className="Contact-me" variant="contained">Contact</Button>
+  <a href="https://drive.google.com/file/d/1XSu9v0qSWJa6g6ghx_gKPywn21kDiv6J/view?usp=drive_link">   <Button className="Contact-me" variant="contained"> Resume </Button></a>
         </div>
            <div className="Socials">
-   <a href={Bio.github}>  <span className="Github-Socials" > <GitHubIcon className="GitHubIcon " />  GitHub</span></a>
-  <a href={Bio.linkedin}>   <span className="LinkdIn-Socials"><LinkedInIcon className="LinkedInIcon"/>LinkedIn </span></a>
+   <a href={Bio.github}>  <span className="Github-Socials icon" > <GitHubIcon className="GitHubIcon " />  GitHub</span></a>
+  <a href={Bio.linkedin}>   <span className="LinkdIn-Socials icon"><LinkedInIcon className="LinkedInIcon"/>LinkedIn </span></a>
         </div>
        
         </div>
@@ -55,7 +55,7 @@ function Center(){
             
         </div>
         <div className="Image-Container" >
-            <img src={Frontend} alt="" width="500px" height="500px"/>
+            <img src={Frontend} alt="" />
         </div>
           
 
