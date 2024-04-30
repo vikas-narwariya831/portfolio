@@ -17,8 +17,8 @@ function Skills(){
     z-index: 1;
     align-items: center;
     background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
-
-
+    object-fit: cover;
+    height:100%
     
     `
     
@@ -29,7 +29,8 @@ function Skills(){
     align-items: center;
     flex-direction: column;
     width: 100vw;
-    height:100%;
+
+    
 
     gap: 12px;
     @media (max-width: 960px) {
