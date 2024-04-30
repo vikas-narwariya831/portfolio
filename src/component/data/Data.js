@@ -10,8 +10,8 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/vikas-narwariya831",
     linkedin: "https://www.linkedin.com/in/vikas-narwariya-6b7958243/",
-    resume:
-      "",
+    resume: "https://drive.google.com/file/d/1K7HvSSCSllqBPum4YrOIsGMe_xRmftwo/view?usp=drive_link",
+      
    
   };
   

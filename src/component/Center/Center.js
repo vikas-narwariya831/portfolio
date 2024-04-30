@@ -39,7 +39,7 @@ function Center(){
            </div>
            <div className="buttons">
         <Button variant="contained" onClick={projectClick}>Projects</Button>
-  <a href="https://drive.google.com/file/d/1XSu9v0qSWJa6g6ghx_gKPywn21kDiv6J/view?usp=drive_link">   <Button className="Contact-me" variant="contained"> Resume </Button></a>
+  <a href={Bio.resume}>   <Button className="Contact-me" variant="contained"> Resume </Button></a>
         </div>
            <div className="Socials">
    <a href={Bio.github}>  <span className="Github-Socials icon" > <GitHubIcon className="GitHubIcon " />  GitHub</span></a>
