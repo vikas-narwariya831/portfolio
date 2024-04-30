@@ -18,7 +18,7 @@ function Skills(){
     align-items: center;
     background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     object-fit: cover;
-    height:100%
+   
     
     `
     
@@ -141,7 +141,7 @@ function Skills(){
       height: 24px;
     `
     const SkillsHeader = styled.div`
-   margin-left:920px;
+   margin-left:60px;
    margin-bottom:30px
    @media (max-width: 500px) {
     flex-direction:column;

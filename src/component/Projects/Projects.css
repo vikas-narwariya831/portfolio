@@ -136,7 +136,7 @@ filter: drop-shadow(0 0 10px #333);
 @media (max-width: 960px) {
   .Project-Header {
     flex-direction: column;
-    margin-left: 700px;
+    margin-left: 50px;
   }
 }
 

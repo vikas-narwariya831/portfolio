@@ -9,14 +9,11 @@
     font-size:small;
     display: flex;
 
-margin-right: 990px;   
- } 
+}
 
- @media (max-width: 960px) {
-   .Main-Heading {
-     flex-direction: column;
-   }
- }
+
+ 
+ 
  
  .Navbar{
     /* background-color :white; */
@@ -29,6 +26,12 @@ margin-right: 990px;
     margin-top: 50px;
     margin-left: 60px;
     font-size: 15px;
+    @media (max-width: 960px) 
+    {
+       font-size: 15px;
+       margin-top: 50px;
+       margin-left: 10px;
+      }
  }
  .Main-Heading :hover{
     background-color:white;
