@@ -2,9 +2,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { skills } from '../data/Data'
-import _default from "../Themes/default"
 import Header from '../Header/Header'
-import { ClassNames } from '@emotion/react'
 
 function Skills(){
 

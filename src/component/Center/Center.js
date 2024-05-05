@@ -22,8 +22,7 @@ function Center(){
         <div className="Content" >
             <div className="Content-Name">      <h1> I'm Vikas Narwariya</h1></div>
 
-        <TextLoop>
-                            I am a
+        <TextLoop>     I am a
                             <Span>
                                 <Typewriter
                                     options={{

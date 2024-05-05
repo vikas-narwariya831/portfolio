@@ -8,7 +8,8 @@
     background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     height: 100vh;
     font-family: Marcellus;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    overflow-y: hidden;
   }
 
   .Home-Header{
