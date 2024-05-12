@@ -1,5 +1,4 @@
 import "./center.css"
-import Frontend from "../Assest/Frontend.png"
 import Button from '@mui/material/Button';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -54,7 +53,7 @@ function Center(){
             
         </div>
         <div className="Image-Container" >
-            <img src={Frontend} alt="" />
+            <img src="/Assest/Frontend.png" alt="" />
         </div>
           
 
